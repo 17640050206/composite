@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0b6995"],{"1e9d":function(n,e,t){"use strict";t.r(e);var u=t("2877"),r=Object(u.a)({},(function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v("\n  无限级菜单\n  "),t("router-view")],1)}),[],!1,null,null,null);e.default=r.exports}}]);

@@ -9,8 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface MaterialRepository extends JpaRepository<Material, Integer> {
 
 
-//    @Query("select m from Menu m where m.id in ?1 order by m.id ")
-//    List<Menu> findMenu(List<Integer> menuIds);
-
 }
 

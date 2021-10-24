@@ -26,8 +26,9 @@ spring:
   thymeleaf:
     prefix: classpath:/static/
     suffix: .html
-    mode: LEGACYHTML5
+    mode: HTML
     encoding: UTF-8
+    #开发时关闭缓存,不然没法看到实时页面
     cache: false
     servlet:
       content-type: text/html; charset=utf-8
