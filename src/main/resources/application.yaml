@@ -8,14 +8,6 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/composite?characterEncoding=utf-8
     username: root
     password: root
-    hikari:
-      connection-timeout: 30000
-      idle-timeout: 30000
-      maximum-pool-size: 1000
-      minimum-idle: 3
-      max-lifetime: 108000
-      pool-name: SpringBootHikariCP
-      allow-pool-suspension: true
   jpa:
     database: mysql
     #    hibernate:

@@ -1,17 +1,20 @@
 package com.design.composite.service;
 
 
+import com.design.composite.bean.PageAbleCondition;
+import com.design.composite.bean.ResponseResult;
 import com.design.composite.entity.Classify;
-
-import java.util.List;
+import org.springframework.data.domain.Page;
 
 /**
  * @author liuyajun
  */
 public interface IClassifyService {
 
-    List<Classify> findlist();
+    Page<Classify> findPage(PageAbleCondition pageAbleCondition);
 
-    void add(Classify classify);
+    ResponseResult add(Classify classify);
+
+    ResponseResult delete(Integer id);
 }
 
